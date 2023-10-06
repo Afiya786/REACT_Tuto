@@ -10,7 +10,7 @@ function App() {
 
 
 const addValue = () =>{
-if (counter >= 100){
+if (counter >= 20){
   console.log("cannot exceed");
 }
 else{
@@ -20,7 +20,7 @@ setCounter(counter +1);
 }
 
 const removeValue = () =>{
-  if (counter1 <= 0){
+  if (counter1 <= 90){
     console.log("cannot go down");
   }
   else{
